@@ -1,0 +1,16 @@
+{
+  "name": "supervisord-reactor",
+  "bin": "./bin.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "supervisord-eventlistener": "^0.1.0"
+  }
+}
