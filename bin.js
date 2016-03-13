@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var argv = require('minimist')(process.argv.slice(2), {
   string: ['event']
 });
@@ -20,4 +21,4 @@ function execute(cmd) {
   execSync(cmd);
 }
 
-supervisor.listen(process.stdin, process.stdout);
+listener.listen(process.stdin, process.stdout);
